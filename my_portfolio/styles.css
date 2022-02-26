@@ -1,0 +1,135 @@
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #63FFAE;
+    font-size: 20px;
+    background-image: url(project%202/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+	}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(project%202/header.jpg);
+}
+/*Make sure to float the main so things work :)*/
+main {
+    width: 598px;
+    height: 1800px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;	
+}
+h1 {
+    color: #B36ADE;
+    font-family: politica,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+p {
+	font-family: canada-type-gibson,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#container {
+    width: 768px;
+    height: auto;
+    background-color: #B0A5ED;
+    margin: auto;
+}
+
+/*HELP ME OH MY GOODNESS AAAAAAAAA*/
+aside {
+    width: 150px;
+    height: 2500px;
+    float: left;
+}
+nav {
+    width: 768px;
+    height: 550px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 74px;
+    margin-right: 43px;
+    font-family: gravesend sans, sans-serif;
+    margin-top: 15px;
+}
+#container nav ul {
+    width: 533px;
+    margin: auto;
+}
+
+nav a:link {
+    color: #B369DE;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #380257;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #0C0958;
+    background-color: #D7B7DC;
+    border-radius: 48px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #63FFAE;
+}#user_name {
+}
+.submit_btn {
+    width: 129px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #63FFAE;
+    color: #B0A4EC;
+}
+
+.submit_btn:hover {
+	box-shadow:5px 7px 13px #000000;
+}
